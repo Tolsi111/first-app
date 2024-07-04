@@ -15,6 +15,10 @@ export default function Home() {
         {/* NextJS stays SPA. Content of next page is still prerendered, but the UI is updated via client-side JS*/}
         <Link href={"/about"}>About me Link</Link>
       </p>
+      <p className={styles.description}>
+        {/* NextJS stays SPA. Content of next page is still prerendered, but the UI is updated via client-side JS*/}
+        <Link href={"/blog"}>Blog</Link>
+      </p>
     </main>
   );
 }
